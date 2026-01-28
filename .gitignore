@@ -4,3 +4,5 @@ env/
 __pycache__/
 *.pyc
 .DS_Store
+.venv311/
+.venv/
