@@ -16,7 +16,7 @@ A growing collection of Python scripts built for cryptocurrency and digital inve
 - **`bitcoin_inflow_multiple.py`**  
   Investigate inflows across multiple addresses to identify funding patterns.
 
-- **`bitcoin_txide.py`**  
+- **`bitcoin_tx.py`**  
   Fetches a Bitcoin transaction from the BlockCypher API and prints its inputs and outputs, handling coinbase transactions and invalid TXIDs safely.
   
 - **`bitcoin_wallet_generator.py`**  
