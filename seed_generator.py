@@ -1,7 +1,6 @@
 from mnemonic import Mnemonic
 from datetime import datetime
 
-
 def generate_all_mnemonics() -> dict:
     strength_map = {
         12: 128,
@@ -18,7 +17,6 @@ def generate_all_mnemonics() -> dict:
         mnemonics[words] = mnemo.generate(strength=strength)
 
     return mnemonics
-
 
 def main():
     mnemonics = generate_all_mnemonics()

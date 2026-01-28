@@ -16,4 +16,3 @@ print("Block Height:", block_data["height"])
 print("Timestamp:", block_data["timestamp"])
 print("Transaction Count:", block_data["tx_count"])
 print("Block Size (bytes):", block_data["size"])
-

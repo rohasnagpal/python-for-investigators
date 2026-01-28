@@ -3,10 +3,8 @@ import time
 
 BASE_URL = "https://blockstream.info/api"
 
+# Returns total confirmed inflow (in satoshis) for a Bitcoin address
 def get_total_inflow(address):
-    """
-    Returns total confirmed inflow (in satoshis) for a Bitcoin address
-    """
     r = requests.get(f"{BASE_URL}/address/{address}", timeout=10)
     r.raise_for_status()
     data = r.json()
