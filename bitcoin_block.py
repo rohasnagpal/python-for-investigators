@@ -1,3 +1,5 @@
+# Fetch and inspect Bitcoin block-level data.
+
 import requests
 
 BASE_URL = "https://blockstream.info/api"

@@ -1,3 +1,5 @@
+# Generates random BIP-39 English wallet seed phrases in all standard lengths (12–24 words).
+
 from mnemonic import Mnemonic
 from datetime import datetime
 

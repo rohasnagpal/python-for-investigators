@@ -1,3 +1,5 @@
+# Check the balance of a single Bitcoin address.
+
 import requests
 
 BASE_URL = "https://blockstream.info/api"

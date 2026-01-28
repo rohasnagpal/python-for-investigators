@@ -1,3 +1,5 @@
+# Bulk balance checker for multiple Bitcoin addresses (useful for wallet cluster review).
+
 import requests
 
 BASE_URL = "https://blockstream.info/api"
