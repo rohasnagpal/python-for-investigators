@@ -16,7 +16,8 @@ Test with Vitalik's address: 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
 
 import requests
 
-API_KEY = "I2GE1SVZN5DJXS5PH564YJDMQZUD9XNWX5"
+from config import ETHERSCAN_API_KEY
+
 BASE_URL = "https://api.etherscan.io/v2/api"
 CHAIN_ID = 1  # Ethereum Mainnet
 
@@ -26,7 +27,7 @@ CHAIN_ID = 1  # Ethereum Mainnet
 # ---------------------------------------------------------
 def call_etherscan(params: dict):
     params["chainid"] = CHAIN_ID
-    params["apikey"] = API_KEY
+    params["apikey"] = ETHERSCAN_API_KEY
 
     r = requests.get(BASE_URL, params=params)
     data = r.json()
